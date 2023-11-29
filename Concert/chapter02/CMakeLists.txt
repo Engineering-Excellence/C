@@ -4,5 +4,6 @@ set(CMAKE_CXX_STANDARD 14)
 project(chapter02)
 
 add_executable(chapter02
-        lecture/hello.c
+#        lecture/hello.c
+        lecture/gugu.c
 )
