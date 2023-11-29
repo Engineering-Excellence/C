@@ -7,5 +7,7 @@ add_executable(chapter02
 #        lecture/hello.c
 #        lecture/gugu.c
 #        lecture/add1.c
-        lecture/add2.c
+#        lecture/add2.c
+#        lecture/deposit.c
+        lecture/circle.c
 )
