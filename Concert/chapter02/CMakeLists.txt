@@ -6,5 +6,6 @@ project(chapter02)
 add_executable(chapter02
 #        lecture/hello.c
 #        lecture/gugu.c
-        lecture/add1.c
+#        lecture/add1.c
+        lecture/add2.c
 )
