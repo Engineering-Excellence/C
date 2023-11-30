@@ -13,5 +13,8 @@ add_executable(chapter03
 #        lecture/sym_const.c
 #        lecture/floating.c
 #        lecture/over_under.c
-        lecture/error.c
+#        lecture/error.c
+#        lecture/char_var.c
+#        lecture/char_var1.c
+        lecture/escape.c
 )
