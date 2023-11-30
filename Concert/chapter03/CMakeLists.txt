@@ -6,5 +6,9 @@ project(chapter03)
 add_executable(chapter03
 #        lecture/circle_area.c
 #        lecture/sizeof.c
-        lecture/dollar2won.c
+#        lecture/dollar2won.c
+#        lecture/integer.c
+#        lecture/overflow.c
+#        lecture/int_const.c
+        lecture/sym_const.c
 )
