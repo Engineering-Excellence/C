@@ -4,5 +4,6 @@ set(CMAKE_CXX_STANDARD 14)
 project(chapter03)
 
 add_executable(chapter03
-        lecture/circle_area.c
+#        lecture/circle_area.c
+        lecture/sizeof.c
 )
