@@ -10,5 +10,8 @@ add_executable(chapter03
 #        lecture/integer.c
 #        lecture/overflow.c
 #        lecture/int_const.c
-        lecture/sym_const.c
+#        lecture/sym_const.c
+#        lecture/floating.c
+#        lecture/over_under.c
+        lecture/error.c
 )
