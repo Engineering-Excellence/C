@@ -5,5 +5,6 @@ project(chapter03)
 
 add_executable(chapter03
 #        lecture/circle_area.c
-        lecture/sizeof.c
+#        lecture/sizeof.c
+        lecture/dollar2won.c
 )
