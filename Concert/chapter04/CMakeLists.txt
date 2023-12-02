@@ -4,5 +4,9 @@ set(CMAKE_CXX_STANDARD 14)
 project(chapter04)
 
 add_executable(chapter04
-        lecture/simple_exp.c
+#        lecture/simple_exp.c
+#        lecture/arithmetic.c
+#        lecture/arithmetic1.c
+#        lecture/modulo.c
+        lecture/incdec.c
 )

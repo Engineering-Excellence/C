@@ -5,7 +5,7 @@ int main(void) {
 
     short year = 0; // 0으로 초기화한다.
     int sale = 0;   // 0으로 초기화한다.
-    long total_sale = 0;    // 0으로 초기화한다.
+    long total_sale = 0l;    // 0으로 초기화한다.
 
     year = 10;  // short <= 32767
     sale = 21000000;   // 약 21억을 넘지 않도록 주의
