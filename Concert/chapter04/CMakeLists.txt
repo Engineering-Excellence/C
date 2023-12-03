@@ -8,5 +8,7 @@ add_executable(chapter04
 #        lecture/arithmetic.c
 #        lecture/arithmetic1.c
 #        lecture/modulo.c
-        lecture/incdec.c
+#        lecture/incdec.c
+#        lecture/assignment.c
+        lecture/assignment2.c
 )
