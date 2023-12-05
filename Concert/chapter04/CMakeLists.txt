@@ -11,5 +11,7 @@ add_executable(chapter04
 #        lecture/incdec.c
 #        lecture/assignment.c
 #        lecture/assignment2.c
-        lecture/relational.c
+#        lecture/relational.c
+#        lecture/logic.c
+        lecture/leapyear.c
 )
