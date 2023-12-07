@@ -14,5 +14,6 @@ add_executable(chapter04
 #        lecture/relational.c
 #        lecture/logic.c
 #        lecture/leapyear.c
-        lecture/condition.c
+#        lecture/condition.c
+        lecture/prec.c
 )
