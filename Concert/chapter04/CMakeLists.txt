@@ -15,5 +15,6 @@ add_executable(chapter04
 #        lecture/logic.c
 #        lecture/leapyear.c
 #        lecture/condition.c
-        lecture/prec.c
+#        lecture/prec.c
+        lecture/typecast.c
 )
