@@ -8,5 +8,8 @@ add_executable(chapter05
 #        lecture/if2.c
 #        lecture/if_else1.c
 #        lecture/if_else2.c
-        lecture/leap_year.c
+#        lecture/leap_year.c
+#        lecture/grade.c
+#        lecture/charclass.c
+        lecture/calc1.c
 )
