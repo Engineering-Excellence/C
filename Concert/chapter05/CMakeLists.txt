@@ -5,5 +5,8 @@ project(chapter05)
 
 add_executable(chapter05
 #        lecture/if1.c
-        lecture/if2.c
+#        lecture/if2.c
+#        lecture/if_else1.c
+#        lecture/if_else2.c
+        lecture/leap_year.c
 )
