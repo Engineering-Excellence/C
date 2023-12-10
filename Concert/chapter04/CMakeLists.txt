@@ -16,5 +16,15 @@ add_executable(chapter04
 #        lecture/leapyear.c
 #        lecture/condition.c
 #        lecture/prec.c
-        lecture/typecast.c
+#        lecture/typecast.c
+#        exercise/ex01.c
+#        exercise/ex02.c
+#        exercise/ex03.c
+#        exercise/ex04.c
+#        exercise/ex05.c
+#        exercise/ex06.c
+#        exercise/ex07.c
+#        exercise/ex08.c
+#        exercise/ex09.c
+        exercise/ex10.c
 )
