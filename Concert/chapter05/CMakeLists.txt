@@ -11,5 +11,7 @@ add_executable(chapter05
 #        lecture/leap_year.c
 #        lecture/grade.c
 #        lecture/charclass.c
-        lecture/calc1.c
+#        lecture/calc1.c
+#        lecture/days_in_month.c
+        lecture/calc2.c
 )

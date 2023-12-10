@@ -1,4 +1,4 @@
-/* 간단한 산술 계산기 프로그램 */
+/* 간단한 산술 계산기 프로그램 1 */
 #include <stdio.h>
 
 int main(void) {
