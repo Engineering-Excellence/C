@@ -3,15 +3,14 @@ set(CMAKE_CXX_STANDARD 14)
 
 project(chapter05)
 
-add_executable(chapter05
-#        lecture/if1.c
-#        lecture/if2.c
-#        lecture/if_else1.c
-#        lecture/if_else2.c
-#        lecture/leap_year.c
-#        lecture/grade.c
-#        lecture/charclass.c
-#        lecture/calc1.c
-#        lecture/days_in_month.c
-        lecture/calc2.c
-)
+add_executable(if1 lecture/if1.c)
+add_executable(if2 lecture/if2.c)
+add_executable(if_else1 lecture/if_else1.c)
+add_executable(if_else2 lecture/if_else2.c)
+add_executable(leap_year lecture/leap_year.c)
+add_executable(grade lecture/grade.c)
+add_executable(charclass lecture/charclass.c)
+add_executable(calc1 lecture/calc1.c)
+add_executable(days_in_month lecture/days_in_month.c)
+add_executable(calc2 lecture/calc2.c)
+add_executable(goto lecture/goto.c)

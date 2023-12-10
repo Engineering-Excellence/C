@@ -3,15 +3,13 @@ set(CMAKE_CXX_STANDARD 14)
 
 project(chapter02)
 
-add_executable(chapter02
-#        lecture/hello.c
-#        lecture/gugu.c
-#        lecture/add1.c
-#        lecture/add2.c
-#        lecture/deposit.c
-#        lecture/circle.c
-#        exercise/ex01.c
-#        exercise/ex02.c
-#        exercise/ex03.c
-        exercise/ex04.c
-)
+add_executable(hello lecture/hello.c)
+add_executable(gugu lecture/gugu.c)
+add_executable(add1 lecture/add1.c)
+add_executable(add2 lecture/add2.c)
+add_executable(deposit lecture/deposit.c)
+add_executable(circle lecture/circle.c)
+add_executable(ex01 lecture/ex01.c)
+add_executable(ex02 lecture/ex02.c)
+add_executable(ex03 lecture/ex03.c)
+add_executable(ex04 lecture/ex04.c)

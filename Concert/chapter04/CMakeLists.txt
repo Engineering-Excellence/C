@@ -3,28 +3,26 @@ set(CMAKE_CXX_STANDARD 14)
 
 project(chapter04)
 
-add_executable(chapter04
-#        lecture/simple_exp.c
-#        lecture/arithmetic.c
-#        lecture/arithmetic1.c
-#        lecture/modulo.c
-#        lecture/incdec.c
-#        lecture/assignment.c
-#        lecture/assignment2.c
-#        lecture/relational.c
-#        lecture/logic.c
-#        lecture/leapyear.c
-#        lecture/condition.c
-#        lecture/prec.c
-#        lecture/typecast.c
-#        exercise/ex01.c
-#        exercise/ex02.c
-#        exercise/ex03.c
-#        exercise/ex04.c
-#        exercise/ex05.c
-#        exercise/ex06.c
-#        exercise/ex07.c
-#        exercise/ex08.c
-#        exercise/ex09.c
-        exercise/ex10.c
-)
+add_executable(simple_exp lecture/simple_exp.c)
+add_executable(arithmetic lecture/arithmetic.c)
+add_executable(arithmetic1 lecture/arithmetic1.c)
+add_executable(modulo lecture/modulo.c)
+add_executable(incdec lecture/incdec.c)
+add_executable(assignment lecture/assignment.c)
+add_executable(assignment2 lecture/assignment2.c)
+add_executable(relational lecture/relational.c)
+add_executable(logic lecture/logic.c)
+add_executable(leapyear lecture/leapyear.c)
+add_executable(condition lecture/condition.c)
+add_executable(prec lecture/prec.c)
+add_executable(typecast lecture/typecast.c)
+add_executable(ex01 lecture/ex01.c)
+add_executable(ex02 lecture/ex02.c)
+add_executable(ex03 lecture/ex03.c)
+add_executable(ex04 lecture/ex04.c)
+add_executable(ex05 lecture/ex05.c)
+add_executable(ex06 lecture/ex06.c)
+add_executable(ex07 lecture/ex07.c)
+add_executable(ex08 lecture/ex08.c)
+add_executable(ex09 lecture/ex09.c)
+add_executable(ex10 lecture/ex10.c)

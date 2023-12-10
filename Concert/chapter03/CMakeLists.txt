@@ -3,28 +3,26 @@ set(CMAKE_CXX_STANDARD 14)
 
 project(chapter03)
 
-add_executable(chapter03
-#        lecture/circle_area.c
-#        lecture/sizeof.c
-#        lecture/dollar2won.c
-#        lecture/integer.c
-#        lecture/overflow.c
-#        lecture/int_const.c
-#        lecture/sym_const.c
-#        lecture/floating.c
-#        lecture/over_under.c
-#        lecture/error.c
-#        lecture/char_var.c
-#        lecture/char_var1.c
-#        lecture/escape.c
-#        exercise/ex01.c
-#        exercise/ex02.c
-#        exercise/ex03.c
-#        exercise/ex04.c
-#        exercise/ex05.c
-#        exercise/ex06.c
-#        exercise/ex07.c
-#        exercise/ex08.c
-#        exercise/ex09.c
-        exercise/ex10.c
-)
+add_executable(circle_area lecture/circle_area.c)
+add_executable(sizeof lecture/sizeof.c)
+add_executable(dollar2won lecture/dollar2won.c)
+add_executable(integer lecture/integer.c)
+add_executable(overflow lecture/overflow.c)
+add_executable(int_const lecture/int_const.c)
+add_executable(sym_const lecture/sym_const.c)
+add_executable(floating lecture/floating.c)
+add_executable(over_under lecture/over_under.c)
+add_executable(error lecture/error.c)
+add_executable(char_var lecture/char_var.c)
+add_executable(char_var1 lecture/char_var1.c)
+add_executable(escape lecture/escape.c)
+add_executable(ex01 lecture/ex01.c)
+add_executable(ex02 lecture/ex02.c)
+add_executable(ex03 lecture/ex03.c)
+add_executable(ex04 lecture/ex04.c)
+add_executable(ex05 lecture/ex05.c)
+add_executable(ex06 lecture/ex06.c)
+add_executable(ex07 lecture/ex07.c)
+add_executable(ex08 lecture/ex08.c)
+add_executable(ex09 lecture/ex09.c)
+add_executable(ex10 lecture/ex10.c)
