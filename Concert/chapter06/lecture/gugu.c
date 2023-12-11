@@ -1,0 +1,16 @@
+/* while 문을 이용한 구구단 출력 프로그램 */
+#include <stdio.h>
+
+int main(void) {
+    int n;
+    int i = 0;
+
+    printf("출력할 단을 입력하세요.: ");
+    scanf("%d", &n);
+
+    while (i++ < 9) {
+        printf("%d × %d = %d\n", n, i, n * i);
+    }
+
+    return 0;
+}
