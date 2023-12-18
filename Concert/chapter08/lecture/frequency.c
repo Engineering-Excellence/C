@@ -13,7 +13,7 @@ int main(void) {
     while (1) {
         printf("숫자를 입력하세요(종료 -1): ");
         scanf("%d", &score);
-        if (score < 0) break;
+        if (score < 0 || score > 100) break;
         freq[score]++;
     }
 
