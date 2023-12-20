@@ -6,11 +6,11 @@ int main(void) {
     int *p;
 
     p = &x; // p는 x를 가리킨다.
-    printf("p = %u\n", p);
+    printf("p = %p\n", p);
     printf("*p = %d\n", *p);
 
     p = &y; // p는 y를 가리킨다.
-    printf("p = %u\n", p);
+    printf("p = %p\n", p);
     printf("*p = %d\n", *p);
 
     return 0;
