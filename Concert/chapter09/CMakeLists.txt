@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.15)
+set(CMAKE_CXX_STANDARD 14)
+
+project(chapter09)
+
+add_executable(address_of lecture/address_of.c)
+add_executable(pointer1 lecture/pointer1.c)
+add_executable(pointer2 lecture/pointer2.c)
+add_executable(pointer3 lecture/pointer3.c)
