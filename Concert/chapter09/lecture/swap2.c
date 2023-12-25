@@ -1,7 +1,7 @@
 /* 참조에 의한 호출 */
 #include <stdio.h>
 
-void swap(int *px, int *py);
+void swap(int *x_ptr, int *py);
 
 int main(void) {
     int a = 100, b = 200;
@@ -15,10 +15,10 @@ int main(void) {
     return 0;
 }
 
-void swap(int *px, int *py) {
+void swap(int *x_ptr, int *py) {
     int tmp;
 
-    tmp = *px;
-    *px = *py;
+    tmp = *x_ptr;
+    *x_ptr = *py;
     *py = tmp;
 }
