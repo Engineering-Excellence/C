@@ -1,5 +1,5 @@
 /* 구조체 배열의 초기화 */
-#include <printf.h>
+#include <stdio.h>
 
 #define SIZE 3
 
