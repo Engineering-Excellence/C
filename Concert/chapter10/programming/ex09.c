@@ -14,15 +14,15 @@ int main(void) {
 
     printf("원본 문자열을 입력하세요: ");
     fgets(original, MAX_SIZE, stdin);
-    original[strcspn(original, "\n")] = '\0';  // 개행 문자를 null 문자로 바꿔서 문자열을 종료합니다.
+    original[strcspn(original, "\n")] = '\0';  // 개행 문자를 null 문자로 바꿔서 문자열을 종료
 
     printf("찾을 패턴을 입력하세요: ");
     fgets(pattern, MAX_SIZE, stdin);
-    pattern[strcspn(pattern, "\n")] = '\0';  // 개행 문자를 null 문자로 바꿔서 문자열을 종료합니다.
+    pattern[strcspn(pattern, "\n")] = '\0';
 
     printf("대체할 문자열을 입력하세요: ");
     fgets(replacement, MAX_SIZE, stdin);
-    replacement[strcspn(replacement, "\n")] = '\0';  // 개행 문자를 null 문자로 바꿔서 문자열을 종료합니다.
+    replacement[strcspn(replacement, "\n")] = '\0';
 
     result = str_replace(original, pattern, replacement);
 
