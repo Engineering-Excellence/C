@@ -11,8 +11,8 @@ typedef struct NODE {   // 노드의 타입을 정의
 } NODE;
 
 int main(void) {
-    NODE *list = NULL;  // 노드를 가리키는 포인터 정의
-    NODE *prev, *p, *next;
+    NODE *list = NULL;
+    NODE *prev, *p, *next;  // 노드를 가리키는 포인터 정의
     char buffer[S_SIZE];
 
     // 연결 리스트에 정보를 입력한다.
@@ -23,6 +23,7 @@ int main(void) {
         if (buffer[0] == '\0') {
             break;
         }
+
         p = (NODE *) malloc(sizeof(NODE));  // 동적 메모리 할당
         strcpy(p->title, buffer);
         printf("책의 출판년도를 입력하세요.: ");
@@ -35,13 +36,13 @@ int main(void) {
         } else {
             prev->link = p;
         }
-        p->link = NULL;
+        p->link = NULL; // 현재 처리중인 구조체가 연결 리스트의 마지막 노드
         prev = p;
     }
     putchar('\n');
 
     // 연결 리스트에 들어있는 정보를 모두 출력한다.
-    p = list;
+    p = list;   // 연결 리스트의 첫 번째 노드를 가리키게 함
     while (p != NULL) {
         printf("책의 제목: %s, 출판년도: %d\n", p->title, p->year);
         p = p->link;
