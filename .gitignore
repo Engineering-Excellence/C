@@ -138,3 +138,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+### Custom ###
+/CMakeLists.txt
+/main.c
