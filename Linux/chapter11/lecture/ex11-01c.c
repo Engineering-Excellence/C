@@ -3,8 +3,7 @@
 #include <string.h>
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int filedes;    // 네임드 파이프 파일 기술자
 
     puts("[exec] standard output"); // 표준 출력(부모 프로세스와 연결된 파이프의 사본)이 파이프를 통한 출력
