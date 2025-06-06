@@ -19,10 +19,10 @@ int main(void) {
     int sockfd_listen;  // 클라이언트의 연결 요청을 기다리는 용도로 사용되는 소켓 기술자
     int sockfd_connect; // 클라이언트와 연결하여 메시지를 주고받는 용도로 사용되는 소켓 기술자
     char c;
-    struct sockaddr_in server = {AF_INET/* 인터넷 기반 */, 5000, INADDR_ANY/* 호스트 주소 자동 할당(커널) */};    // 통신 유형에 관한 자기 자신의 정보
+    struct sockaddr_in server = {AF_INET/* IPv4 */, 5000, INADDR_ANY/* 호스트 주소 자동 할당(커널) */};    // 통신 유형에 관한 자기 자신의 정보
 
     puts("socket()");
-    sockfd_listen = socket(AF_INET/* IPv4*/, SOCK_STREAM/* 연결형 */, 0/* 기본값(TCP) */);    // IPv4 기반의 연결형 모델(TCP)로 소켓 생성
+    sockfd_listen = socket(AF_INET/* IPv4 */, SOCK_STREAM/* 연결형 */, 0/* 기본값(TCP) */);    // IPv4 기반의 연결형 모델(TCP)로 소켓 생성
 
     puts("bind()");
     if (bind(sockfd_listen, (struct sockaddr *) &server, SIZE) == -1) { // 서버와 소켓을 연결
