@@ -38,9 +38,9 @@ int main(void) {
     puts("accepted");
 
     recv(sockfd_connect, &c, 1, 0); // 소켓을 통해 클라이언트가 보낸 메시지를 수신
-    printf("recv %c from client\n", c++);
+    printf("recv %c from client\n", c);
 
-    printf("send %c to client\n", c);
+    printf("send %c to client\n", ++c);
     send(sockfd_connect, &c, 1, 0); // 소켓을 통해 클라이언트로 메시지를 전송
 
     puts("close()");
