@@ -26,7 +26,7 @@ int main(void) {
     addr.sin_port = 1004;
     addr.sin_addr.s_addr = INADDR_ANY;  // 호스트 주소 자동 할당(커널)
 
-    if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) == -1) {
+    if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) == -1) { // 소켓 생성
         perror("fail to call socket()\n");
         exit(EXIT_FAILURE);
     }

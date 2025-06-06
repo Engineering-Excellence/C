@@ -31,7 +31,7 @@ int main(void) {
     }
 
     puts("listen()");
-    listen(sockfd_listen, 5);   // 소켓을 클라이언트의 연결 요청을 기다리는 상태로 변경
+    listen(sockfd_listen, 5/* 동시에 받아들일 수 있는 연결 요청 수 */);   // 소켓을 클라이언트의 연결 요청을 기다리는 상태로 변경
 
     puts("waiting for client");
     sockfd_connect = accept(sockfd_listen, NULL, NULL); // 대기하다가 클라이언트가 연결 요청시 수락 후 새로운 소켓 생성
