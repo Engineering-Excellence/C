@@ -23,7 +23,7 @@ int main(void) {
     struct utsname info;    // 시스템 정보 변수
     struct hostent *hent;   // 네트워크 정보 변수
 
-    struct sockaddr_in server = {/*sizeof(server), */AF_INET, 2007, INADDR_ANY};    // 서버 통신 정보 변수
+    struct sockaddr_in server = {/*SIZE, */AF_INET, 2007, INADDR_ANY};    // 서버 통신 정보 변수
     struct sockaddr_in client;  // 클라이언트 통신 정보 변수
     socklen_t client_len = SIZE;
 
