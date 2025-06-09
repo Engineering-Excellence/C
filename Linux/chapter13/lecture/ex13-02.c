@@ -1,6 +1,7 @@
 /**
  * recvfrom
  *
+ * @headerfile sys/socket.h
  * @brief 비연결형 통신 모델에서 소켓을 통해 메시지를 수신한다.
  *
  * @param fd {int} 소켓 기술자
